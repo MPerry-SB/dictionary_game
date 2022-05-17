@@ -1,0 +1,32 @@
+<section class="hero is-info is-medium">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+                  <p class="title">Dictionary Game</p>
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+                <%= link_to "Home", root_path %>
+            </a>
+            <a class="navbar-item">
+                <%= link_to "Dictionary", dictionary_index_path %>
+            </a>
+            <a class="navbar-item">
+                <%= link_to "Play Game", game_index_path %>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</section>
